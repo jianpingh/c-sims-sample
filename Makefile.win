@@ -1,0 +1,109 @@
+# Project: main
+# Makefile created by Dev-C++ 5.11
+
+CPP      = g++.exe
+CC       = gcc.exe
+WINDRES  = windres.exe
+OBJ      = hy_del.o hy_deng.o hy_dis.o hy_search.o hy_select.o hy_stu_infor.o hy_stu_score.o infor_add.o infor_del.o infor_dis.o infor_huiyuan.o infor_search.o infor_update.o land.o main.o pass.o score_add.o score_ave.o score_del.o score_dis.o score_max.o score_search.o score_update.o spuerman.o stu_infor.o stu_score.o user.o zhu_ce.o
+LINKOBJ  = hy_del.o hy_deng.o hy_dis.o hy_search.o hy_select.o hy_stu_infor.o hy_stu_score.o infor_add.o infor_del.o infor_dis.o infor_huiyuan.o infor_search.o infor_update.o land.o main.o pass.o score_add.o score_ave.o score_del.o score_dis.o score_max.o score_search.o score_update.o spuerman.o stu_infor.o stu_score.o user.o zhu_ce.o
+LIBS     = -L"D:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"D:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc -lkernel32 -luser32 -lgdi32 -lwinspool -lcomdlg32 -ladvapi32 -lshell32 -lole32 -loleaut32 -luuid -lodbc32 -lodbccp32
+INCS     = -I"D:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"D:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
+CXXINCS  = -I"D:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"D:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
+BIN      = main.exe
+CXXFLAGS = $(CXXINCS) -D__GNUWIN32__ -W -DWIN32 -DNDEBUG -D_CONSOLE -D_MBCS
+CFLAGS   = $(INCS) -D__GNUWIN32__ -W -DWIN32 -DNDEBUG -D_CONSOLE -D_MBCS
+RM       = rm.exe -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+hy_del.o: hy_del.c
+	$(CC) -c hy_del.c -o hy_del.o $(CFLAGS)
+
+hy_deng.o: hy_deng.c
+	$(CC) -c hy_deng.c -o hy_deng.o $(CFLAGS)
+
+hy_dis.o: hy_dis.c
+	$(CC) -c hy_dis.c -o hy_dis.o $(CFLAGS)
+
+hy_search.o: hy_search.c
+	$(CC) -c hy_search.c -o hy_search.o $(CFLAGS)
+
+hy_select.o: hy_select.c
+	$(CC) -c hy_select.c -o hy_select.o $(CFLAGS)
+
+hy_stu_infor.o: hy_stu_infor.c
+	$(CC) -c hy_stu_infor.c -o hy_stu_infor.o $(CFLAGS)
+
+hy_stu_score.o: hy_stu_score.c
+	$(CC) -c hy_stu_score.c -o hy_stu_score.o $(CFLAGS)
+
+infor_add.o: infor_add.c
+	$(CC) -c infor_add.c -o infor_add.o $(CFLAGS)
+
+infor_del.o: infor_del.c
+	$(CC) -c infor_del.c -o infor_del.o $(CFLAGS)
+
+infor_dis.o: infor_dis.c
+	$(CC) -c infor_dis.c -o infor_dis.o $(CFLAGS)
+
+infor_huiyuan.o: infor_huiyuan.c
+	$(CC) -c infor_huiyuan.c -o infor_huiyuan.o $(CFLAGS)
+
+infor_search.o: infor_search.c
+	$(CC) -c infor_search.c -o infor_search.o $(CFLAGS)
+
+infor_update.o: infor_update.c
+	$(CC) -c infor_update.c -o infor_update.o $(CFLAGS)
+
+land.o: land.c
+	$(CC) -c land.c -o land.o $(CFLAGS)
+
+main.o: main.c
+	$(CC) -c main.c -o main.o $(CFLAGS)
+
+pass.o: pass.c
+	$(CC) -c pass.c -o pass.o $(CFLAGS)
+
+score_add.o: score_add.c
+	$(CC) -c score_add.c -o score_add.o $(CFLAGS)
+
+score_ave.o: score_ave.c
+	$(CC) -c score_ave.c -o score_ave.o $(CFLAGS)
+
+score_del.o: score_del.c
+	$(CC) -c score_del.c -o score_del.o $(CFLAGS)
+
+score_dis.o: score_dis.c
+	$(CC) -c score_dis.c -o score_dis.o $(CFLAGS)
+
+score_max.o: score_max.c
+	$(CC) -c score_max.c -o score_max.o $(CFLAGS)
+
+score_search.o: score_search.c
+	$(CC) -c score_search.c -o score_search.o $(CFLAGS)
+
+score_update.o: score_update.c
+	$(CC) -c score_update.c -o score_update.o $(CFLAGS)
+
+spuerman.o: spuerman.c
+	$(CC) -c spuerman.c -o spuerman.o $(CFLAGS)
+
+stu_infor.o: stu_infor.c
+	$(CC) -c stu_infor.c -o stu_infor.o $(CFLAGS)
+
+stu_score.o: stu_score.c
+	$(CC) -c stu_score.c -o stu_score.o $(CFLAGS)
+
+user.o: user.c
+	$(CC) -c user.c -o user.o $(CFLAGS)
+
+zhu_ce.o: zhu_ce.c
+	$(CC) -c zhu_ce.c -o zhu_ce.o $(CFLAGS)

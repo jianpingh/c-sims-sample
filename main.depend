@@ -1,0 +1,150 @@
+# depslib dependency file v1.0
+1179048786 source:d:\study\c_lang\code\studentinfomanager\work\hy_del.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"student.h"
+
+1178943722 d:\study\c_lang\code\studentinfomanager\work\student.h
+
+1178899036 source:d:\study\c_lang\code\studentinfomanager\work\hy_deng.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"student.h"
+
+1178938150 source:d:\study\c_lang\code\studentinfomanager\work\hy_dis.c
+	<stdio.h>
+	<stdlib.h>
+	"student.h"
+
+1179625146 source:d:\study\c_lang\code\studentinfomanager\work\hy_search.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"student.h"
+
+1178937092 source:d:\study\c_lang\code\studentinfomanager\work\hy_select.c
+	<stdio.h>
+	<stdlib.h>
+	"student.h"
+
+1178936800 source:d:\study\c_lang\code\studentinfomanager\work\hy_stu_infor.c
+	<stdio.h>
+	<stdlib.h>
+	"student.h"
+
+1178937232 source:d:\study\c_lang\code\studentinfomanager\work\hy_stu_score.c
+	<stdio.h>
+	<stdlib.h>
+	"student.h"
+
+1178945490 source:d:\study\c_lang\code\studentinfomanager\work\infor_add.c
+	<stdio.h>
+	<stdlib.h>
+	"student.h"
+
+1177602254 source:d:\study\c_lang\code\studentinfomanager\work\infor_del.c
+	<stdio.h>
+	<stdlib.h>
+	"student.h"
+
+1179803878 source:d:\study\c_lang\code\studentinfomanager\work\infor_dis.c
+	<stdio.h>
+	<stdlib.h>
+	"student.h"
+
+1178938040 source:d:\study\c_lang\code\studentinfomanager\work\infor_huiyuan.c
+	<stdio.h>
+	<stdlib.h>
+	"student.h"
+
+1178937420 source:d:\study\c_lang\code\studentinfomanager\work\infor_search.c
+	<stdio.h>
+	<stdlib.h>
+	"student.h"
+
+1176538156 source:d:\study\c_lang\code\studentinfomanager\work\infor_update.c
+	<stdio.h>
+	<stdlib.h>
+	"student.h"
+
+1178943618 source:d:\study\c_lang\code\studentinfomanager\work\land.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"student.h"
+
+1178942420 source:d:\study\c_lang\code\studentinfomanager\work\main.c
+	<stdio.h>
+	<stdlib.h>
+	"student.h"
+
+1178814070 source:d:\study\c_lang\code\studentinfomanager\work\pass.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	"student.h"
+
+1181263322 source:d:\study\c_lang\code\studentinfomanager\work\score_add.c
+	<stdio.h>
+	<stdlib.h>
+	"student.h"
+
+1176558924 source:d:\study\c_lang\code\studentinfomanager\work\score_ave.c
+	<stdio.h>
+	<stdlib.h>
+	"student.h"
+
+1176537594 source:d:\study\c_lang\code\studentinfomanager\work\score_del.c
+	<stdio.h>
+	<stdlib.h>
+	"student.h"
+
+1179805628 source:d:\study\c_lang\code\studentinfomanager\work\score_dis.c
+	<stdio.h>
+	<stdlib.h>
+	"student.h"
+
+1179301708 source:d:\study\c_lang\code\studentinfomanager\work\score_max.c
+	<stdio.h>
+	<stdlib.h>
+	"student.h"
+
+1178946004 source:d:\study\c_lang\code\studentinfomanager\work\score_search.c
+	<stdio.h>
+	<stdlib.h>
+	"student.h"
+
+1176539906 source:d:\study\c_lang\code\studentinfomanager\work\score_update.c
+	<stdio.h>
+	<stdlib.h>
+	"student.h"
+
+1178937910 source:d:\study\c_lang\code\studentinfomanager\work\spuerman.c
+	<stdio.h>
+	<stdlib.h>
+	"student.h"
+
+1178936750 source:d:\study\c_lang\code\studentinfomanager\work\stu_infor.c
+	<stdio.h>
+	<stdlib.h>
+	"student.h"
+
+1178944590 source:d:\study\c_lang\code\studentinfomanager\work\stu_score.c
+	<stdio.h>
+	<stdlib.h>
+	"student.h"
+
+1178813660 source:d:\study\c_lang\code\studentinfomanager\work\user.c
+	<stdio.h>
+	<stdlib.h>
+	"student.h"
+
+1178948662 source:d:\study\c_lang\code\studentinfomanager\work\zhu_ce.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"student.h"
+

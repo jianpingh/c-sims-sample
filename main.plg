@@ -1,0 +1,51 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: main - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPE.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/main.pdb" /debug /machine:I386 /out:"Debug/main.exe" /pdbtype:sept 
+.\Debug\hy_del.obj
+.\Debug\hy_deng.obj
+.\Debug\hy_dis.obj
+.\Debug\hy_search.obj
+.\Debug\hy_select.obj
+.\Debug\hy_stu_infor.obj
+.\Debug\hy_stu_score.obj
+.\Debug\infor_add.obj
+.\Debug\infor_del.obj
+.\Debug\infor_dis.obj
+.\Debug\infor_huiyuan.obj
+.\Debug\infor_search.obj
+.\Debug\infor_update.obj
+.\Debug\land.obj
+.\Debug\main.obj
+.\Debug\pass.obj
+.\Debug\score_add.obj
+.\Debug\score_ave.obj
+.\Debug\score_del.obj
+.\Debug\score_dis.obj
+.\Debug\score_max.obj
+.\Debug\score_search.obj
+.\Debug\score_update.obj
+.\Debug\spuerman.obj
+.\Debug\stu_infor.obj
+.\Debug\stu_score.obj
+.\Debug\user.obj
+.\Debug\zhu_ce.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPE.tmp"
+<h3>Output Window</h3>
+Linking...
+
+
+
+<h3>Results</h3>
+main.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
